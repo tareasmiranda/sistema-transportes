@@ -4,7 +4,7 @@
 - Docker
 ## Instrucciones
 ```
-git clone https://github.com/tareasmiranda/sistema-transportes.git
-cd sistema-transportes
+git clone https://github.com/tareasmiranda/sistema-transportes.git ||
+cd sistema-transportes ||
 docker compose up --build
 ```
