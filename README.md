@@ -5,6 +5,6 @@
 ## Instrucciones
 ```
 git clone https://github.com/tareasmiranda/sistema-transportes.git ||
-cd sistema-transportes ||
+cd sistema-transportes || 
 docker compose up --build
 ```
