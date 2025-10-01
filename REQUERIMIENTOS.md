@@ -7,12 +7,15 @@
  
   - **Usuarios:**:
     1. Personal administrativo (manejan itinerarios)
-    2. Camioneros (revisan su itinerario, el tipo de carga y metodo de pago del cliente)
-    3. Clientes (reciben los pedidos y gestionan los tiempos de llegada de la mercancia)
+    2. Camioneros (Integración a futuro) (revisan su itinerario, el tipo de carga y metodo de pago del cliente)
+    3. Clientes (Integración a futuro) (reciben los pedidos y gestionan los tiempos de llegada de la mercancia)
   - **Funciones Mínimas (MVP)**:
-	1. Crear API para integraciones a un sistema
-	2. Registro de camiones (placa, modelo, capacidad, estado)
-	3. Administrar itinerarios completos para cada camión
-	4. Gestionar itinerarios (ubicación, actividad a realizar, horario)
-	5. Especificar tipos de pago por cliente por parada
-	6. Personal administrativo administra itinerarios
+    1. Crear API para integraciones a un sistema
+    2. El sistema permite crear y adminsitrar:
+		- Puntos de carga y descarga por tiempo, Horas de entrega, Volumen
+		- Registro de camiones (placa, modelo, capacidad, estado)
+		- Registrar clientes y el tipo de pago
+  - **Funciones a Futuro**:
+	1. Aplicar API a un sistema para que:
+		- Clientes vean sus pedidos con estimado de entrega
+        - Camioneros revisen su itinerario
