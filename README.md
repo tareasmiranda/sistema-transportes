@@ -5,6 +5,8 @@
 - Docker
 - MongoDB
 - NodeJS
+- Redis
+
 ## Instrucciones
 ```
 git clone https://github.com/tareasmiranda/sistema-transportes.git ||
