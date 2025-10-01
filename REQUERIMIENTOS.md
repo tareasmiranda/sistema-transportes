@@ -8,6 +8,7 @@
   - **Usuarios:**:
     1. Personal administrativo (manejan itinerarios)
     2. Camioneros (revisan su itinerario, el tipo de carga y metodo de pago del cliente)
+    3. Clientes (reciben los pedidos y gestionan los tiempos de llegada de la mercancia)
   - **Funciones Mínimas (MVP)**:
 	1. Crear API para integraciones a un sistema
 	2. Registro de camiones (placa, modelo, capacidad, estado)
