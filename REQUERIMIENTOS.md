@@ -1,7 +1,7 @@
 # Requerimientos Transportes Ltda.
 
-**Contexto:** Empresa de transporte
-  - **Problema:** Se necesita optimizar y modernizar su sistema de gestión de itinerarios, al ser este uno antiguo y complicado de manejar.
+**Contexto:** Empresa de transporte y distribuición de mercaderia
+  - **Problema:** Se necesita optimizar y modernizar su sistema de gestión de itinerarios, actualmente la empresa cuenta con un sistema antiguo y complicado de manejar, se utilizan principalmente planillas fisicas para gestionar todos los pedidos.
 	
 	Su sistema actualmente requiere mucho input de los camioneros, ya que ellos administran el pago del cliente y usan una ficha de papel para ver su itinerario. 
   - **Usuarios:**:
