@@ -1,7 +1,9 @@
+
 # Sistema de gestión y administración de itinerarios para transportes
 [Requisitos](#requisitos) | [Instrucciones](#instrucciones)  []()
 ## Requisitos
 - Docker
+- MongoDB
 ## Instrucciones
 ```
 git clone https://github.com/tareasmiranda/sistema-transportes.git ||
