@@ -4,6 +4,7 @@
 ## Requisitos
 - Docker
 - MongoDB
+- NodeJS
 ## Instrucciones
 ```
 git clone https://github.com/tareasmiranda/sistema-transportes.git ||
