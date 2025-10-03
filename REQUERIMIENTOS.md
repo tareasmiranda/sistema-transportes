@@ -12,12 +12,34 @@
     3. Clientes(Usuario): Reciben los pedidos y gestionan los tiempos de llegada de la mercaderia.
     4. Vendedores(Usuario): Proveen la mercaderia a los camioneros para distribuirla a los clientes.
         
-- **Funciones Mínimas (MVP)**:
-    1. Crear API para integraciones a un sistema.
+- **Funciones Necesarias (MVP)**:
+    1. Creacion de la API para integraciones a un sistema.
     2. El sistema permite crear y adminsitrar:
-		- Puntos de carga y descarga por tiempo, Horas de entrega, Volumen de los pedidos.
-		- Registro de camiones (placa, modelo, capacidad, estado).
-		- Registrar clientes y el tipo de pago realizado.
+		- Fecha y horas de carga y descarga de la mercancia, Volumen de los pedidos.
+		- Ubicación por gps de los camiones en ruta para tener un estimado de la fecha y hora de llegada.
+		- Confirmar la entrega al momento de la recepción del pedido.
+  
+- **Datos a guardar**:
+  	1. Registro de los camiones(patente, modelo, capacidad, estado, etc.)
+  	2. Pedidos(ID_pedido, fecha, cliente, total_pedido, metodo de pago, entregable, etc.)
+  	3. Cliente(Nombre, Dirección, Fecha_entrega, etc.)
+
+- **Reglas del negocio**:
+	1. Días de la semana establecidos de reparto
+ 	2. Cantidad de horas que puede manejar un conductor por día no debe exceder las 12 horas dentro del marco legal
+  	3. Camiones deben estar en optimas condiciones:
+  		3.1. Revisión técnica al día
+  	   	3.2. Doucmentos del vehiculo siempre en circulación
+  	   	3.3. No exceder el peso de carga maximo soportado por el camión
+
+- **Prioridades**:
+  	1. Registro de los camiones, con su ubicación
+  	2. Registro de la entrega de los pedidos
+  	3. Almacenar los datos de entrega de cada pedido
+
+- **Plazo deseado**:
+  	1. Projecto final y funcional(por definir)
+  
 - **Funciones a Futuro**:
 	1. Aplicar API a un sistema para que:
 		- Clientes vean sus pedidos con un tiempo estimado de entrega
